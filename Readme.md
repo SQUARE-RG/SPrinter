@@ -120,7 +120,7 @@ Usage
 
 ### Download
 
-[clang-tidy with SPrinter](http://lcs.ios.ac.cn/~maxt/SPrinter/clang-tidy) (SHA256SUM 2c237c9a7e280f91d705ed6e16189c0a63b17643f09f3e233b2f7e6ecc712272)
+[clang-tidy with SPrinter](https://github.com/SQUARE-RG/SPrinter/releases/download/ASE-2019/sprinter-x86_64-clang900-ase2019.tar.xz) (SHA256SUM cc04e23416ef3896fd5c6a37b8d0f0757b41e10197cb171b0890ffe0e3d1466f)
 
 Please contact us if you need the source code.
 
@@ -135,6 +135,21 @@ E.g.
 ```sh
 $ clang-tidy -checks='-*,smartpointersafety-*' source.cpp
 ```
+
+
+Benchmark
+---------
+
+The open-source projects used in Table III are listed as follows.
+
+* CC: https://github.com/centreon/centreon-clib   (commit: 537fec722863f6d3e90e36c8db1987462d2d16ae)
+* CH: https://github.com/yandex/ClickHouse        (commit: 142bcc58f4e0ad897a9f74a5562912438722176f)
+* CS: https://github.com/artyom-beilis/cppcms     (commit: 270634e69f63e43e0e8ff5fa1713187cb4282ca4)
+* GS: https://github.com/libgeos/geos             (commit: 75c286d5b65caf47ffb46e37707568bf4f9cd387)
+* LP: https://github.com/llvm-project/llvm        (commit: e03301a3b32d048d8975e0fe21d80489505415c8, subproject: llvm)
+* MS: https://github.com/mysql/mysql-server       (commit: ee4455a33b10f1b1886044322e4893f587b319ed)
+* OT: https://github.com/savoirfairelinux/opendht (commit: e4516772eecb13e847d34afa24be8f7e269da903)
+* VC: https://github.com/piandpower/vmpc          (commit: 8a4e62ff6dbb455dc0c9c21c1d8d48ff13dd29f0)
 
 
 Publication
